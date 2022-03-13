@@ -71,7 +71,7 @@ class gameclass(Tk):
 	#LIST THE DIRECTORY TO SHUFFLE THROUGH
 	def start_shuffle(self):
 		if (self.number % 2)==0:
-			path = '/Users/lucasfletcher/Desktop/PyGame/separate'
+			path = '.'
 			self.number_list = os.listdir(path)
 			#REMOVE PY FILE AND BLANK IMAGE, DON'T WANT THOSE
 			self.number_list.remove("game.py")
